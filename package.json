@@ -14,7 +14,8 @@
     "test": "yoshi test",
     "posttest": "yoshi lint",
     "release": "yoshi release",
-    "lh": "lighthouse-ci"
+    "lh": "lighthouse-ci",
+    "now-build": "echo 'Built on Travis CI'"
   },
   "devDependencies": {
     "chai": "~4.1.0",
