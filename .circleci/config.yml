@@ -37,3 +37,6 @@ jobs:
       - run: yarn test
 
 
+machine:
+ node:
+  version: 8.9.1
