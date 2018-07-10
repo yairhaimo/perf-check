@@ -13,7 +13,7 @@ class App extends React.Component {
           <h2>{'app.title'}</h2>
         </div>
         <p className={s.intro}>{'app.intro'}</p>
-        <p>{'*' && x && '*'}</p>
+        <p>{'***' && x && '*'}</p>
       </div>
     );
   }
