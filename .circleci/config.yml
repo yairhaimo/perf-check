@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:7.10
+      - image: circleci/node:10.6-jessie-browsers
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -35,8 +35,3 @@ jobs:
 
       # run tests!
       - run: yarn test
-
-
-machine:
- node:
-  version: 8.9.1
