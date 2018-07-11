@@ -7,7 +7,7 @@ describe('React application', () => {
       const page = await browser.newPage();
       await page.goto(baseURL);
       await page.waitForSelector('h2', {timeout: 1000});
-      expect(await page.$eval('h2', e => e.innerText)).to.equal('Hello World!');
+      expect(await page.$eval('h2', e => e.innerText)).to.equal('app.title');
     });
   });
 });

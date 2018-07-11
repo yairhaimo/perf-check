@@ -1,0 +1,13 @@
+{
+  "specs.wixpress.Yair": {
+    "owner": "yairh@wix.com",
+    "onlyForLoggedInUsers": true,
+    "scopes": [
+      "my-account"
+    ],
+    "controlGroup": "false",
+    "variants": [
+      "true"
+    ]
+  }
+}
